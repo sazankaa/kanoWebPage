@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
+#container main {
+  width: auto;
+}
+
 center > img {
   display: block;
-  width: fit-content;
+  width: 75%;
 }
 
 #contents > div > img {

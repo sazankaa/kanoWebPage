@@ -1,1 +1,99 @@
 @charset "UTF-8";
+
+#container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#container aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.aside-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.aside-explain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.aside-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.menu-title {
+  margin: 0;
+}
+
+.explain-title {
+  margin: 0;
+}
+
+.link-title {
+  margin: 0;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+}
+
+.explain-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+}
+
+.menu-list li > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.explain-list li > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-list li > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.menu-list li > a:hover {
+  color: #fff;
+  background-color: #aaa;
+}
+
+.explain-list li > a:hover {
+  color: #fff;
+  background-color: #aaa;
+}
+
+.link-list li > a:hover {
+  color: #fff;
+  background-color: #aaa;
+}
