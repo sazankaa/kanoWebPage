@@ -31,7 +31,7 @@
 }
 
 #header-back {
-  background: url(./head_menu_back.gif);
+  background: #333;
 }
 
 #header-menu li {
@@ -44,5 +44,5 @@
 }
 
 #header-menu a:hover {
-  color: #444;
+  background-color: #888;
 }
