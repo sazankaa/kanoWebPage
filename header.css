@@ -1,9 +1,43 @@
 @charset "UTF-8";
 
-#header-title {
+#header-top {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-#header-nav {
+#header-title {
   display: flex;
+  flex-direction: column;
+}
+
+#header-top h3 {
+  text-align: right;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+  color: #0088ff;
+}
+
+#header-menu {
+  display: flex;
+  list-style-type: none;
+}
+
+#header-back {
+  background: url(http://www.ecc.es.uec.ac.jp/img/head_menu_back.gif);
+}
+
+#header-menu li {
+  margin: 0 0.5rem;
+}
+
+#header-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+#header-menu a:hover {
+  color: #444;
 }
