@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+#imgs {
+  text-align: center;
+  width: fit-content;
+}
+
+#contents > div > img {
+  width: fit-content;
+}
+
+#contents > h1 {
+  text-align: center;
+}
+
+#contents > div > h3 {
+  text-align: center;
+}
+
+#contents > div > p {
+  text-align: left;
+}
+
+#contents > div {
+  padding: 1.5rem;
+}
